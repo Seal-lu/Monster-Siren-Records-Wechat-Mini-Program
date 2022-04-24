@@ -1,0 +1,9 @@
+<view class="main">
+    <view class="search">
+        <input type="text" class="searchBox" placeholder="请输入歌曲名" bindinput="searchSong"/>
+    </view>
+    <Swiper style="height: 390rpx;"/>
+    <scroll-view scroll-y="true" class="scrollBox">
+        <Ablum wx:if="{{album}}" wx:for="{{album}}" wx:key="cid" ablum='{{item}}'/>
+    </scroll-view>
+</view>

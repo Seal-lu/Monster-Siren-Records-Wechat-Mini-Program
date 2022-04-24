@@ -1,0 +1,29 @@
+<!--pages/song/song.wxml-->
+<view class="playPage">
+    <view class="title">
+        <text id="name">{{songInfo.name}}</text><br/>
+        <text id="arters">{{songInfo.artists}}</text>
+    </view>
+    <image class="cover" src="https://images.weserv.nl/?url={{coverUrl}}"></image>
+    <view class="funcs">
+        <view>
+            <image wx:if="!isLike" src="/public/img/heart.png"></image>
+            <image wx:else src="/public/img/heart-fill.png"></image>
+        </view>
+        <image src="/public/img/comments.png"></image>
+        <image src="/public/img/download.png"></image>
+    </view>
+    <view class="slider">
+        <slider show-value block-size="12"></slider>
+    </view>
+    <view class="buttons">
+        <image src="/public/img/left.png"></image>
+        <view class="switch" bindtap="playAudio">
+            <image  wx:if="{{!isPlay}}" src="/public/img/play.png"></image>
+            <image  wx:else src="/public/img/pause.png"></image>
+        </view>
+        
+        <image src="/public/img/right.png"></image>
+    </view>
+    
+</view>

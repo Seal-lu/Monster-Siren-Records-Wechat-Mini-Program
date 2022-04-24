@@ -1,0 +1,29 @@
+/* components/Ablum/Ablum.wxss */
+.album{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.left{
+    width: 180rpx;
+    height: 180rpx;
+}
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: bold;
+}
+.artistes{
+    font-size: 12px;
+    color: gray;
+}

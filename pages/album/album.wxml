@@ -1,0 +1,12 @@
+<!--pages/album/album.wxml-->
+<view class="albumPage">
+    <view class="albumInfo">
+        <image class="cover" src="https://images.weserv.nl/?url={{albumInfo.coverUrl}}"></image>
+        <view class="info">
+            <view class="name">{{albumInfo.name}}</view>
+            <view class="arter">{{albumInfo.artistes}}</view>
+            <scroll-view scroll-y="true" class="intro">{{albumInfo.intro}}</scroll-view>
+        </view>
+    </view>
+    <Song wx:if="{{albumInfo.cid}}" album='{{albumInfo}}'/>
+</view>

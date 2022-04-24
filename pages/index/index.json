@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Swiper":"/components/Swiper/Swiper",
+    "Ablum":"/components/Ablum/Ablum"
+  }
+  
+}

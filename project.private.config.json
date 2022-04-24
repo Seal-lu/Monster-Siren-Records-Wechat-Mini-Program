@@ -1,0 +1,29 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "",
+                    "pathName": "pages/song/song",
+                    "query": "id=\"514571\"&coverUrl=\"https://web.hycdn.cn/siren/pic/20220419/c3897896fbd97cd04b81b7981d4dcfd2.jpg\"",
+                    "scene": null,
+                    "launchMode": "default",
+                    "partialCompile": {
+                        "enabled": true,
+                        "pages": []
+                    }
+                }
+            ]
+        }
+    }
+}

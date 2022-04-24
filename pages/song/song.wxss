@@ -1,0 +1,67 @@
+/* pages/song/song.wxss */
+page{
+    height: 100%;
+}
+.playPage{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg,black,rgb(117, 116, 116));
+    box-sizing: border-box;
+}
+.title{
+    width: 100%;
+    color: white;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#name{
+    text-align: center;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 20px;
+}
+#arters{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.cover{
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.funcs{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.funcs image{
+    width: 30px;
+    height: 30px;
+}
+.slider{
+    width: 90%;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.buttons image{
+    width: 40px;
+    height: 40px;
+}
+.switch image{
+    transform: scale(1.4);
+}

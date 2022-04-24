@@ -1,0 +1,8 @@
+<!--components/Ablum/Ablum.wxml-->
+<view class="album" bindtap="toAlbunm">
+    <image class="left" src="https://images.weserv.nl/?url={{ablum.coverUrl}}"></image>
+    <view class="right">
+        <text class="name">{{ablum.name}}</text>
+        <text class="artistes">{{ablum.artistes}}</text>
+    </view>
+</view>

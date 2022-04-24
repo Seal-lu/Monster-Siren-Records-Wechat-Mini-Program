@@ -1,0 +1,12 @@
+<!--components/Songs/Songs.wxml-->
+<scroll-view scroll-y="true" class="songList" >
+    <block  wx:for="{{songs}}" wx:key="cid" >
+        <view class="song"  data-id="{{item.cid}}" bindtap="toSongPage">
+            <view style="width: 80%;">
+                <view class="songName" >{{item.name}}</view>
+                <view class="songArter">{{item.artists}}</view>
+            </view>
+            <image wx:if="{{!isPlay}}" src="/public/img/right.png"></image>
+        </view>
+    </block>
+</scroll-view>
